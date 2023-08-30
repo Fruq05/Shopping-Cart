@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.cart {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.item-name {
+    flex-grow: 1;
+}
+
+.quantity {
+    margin: 0 10px;
+}
+
+.price {
+    margin-right: 10px;
+}
+
+.total {
+    text-align: right;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.like-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.like-button.active {
+    color: red;
+}
+
+.plus-button,
+.minus-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 0 5px;
+}
+
+.delete-button {
+    background-color: red;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.delete-button:hover {
+    background-color: darkred;
+}
